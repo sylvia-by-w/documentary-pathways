@@ -7,6 +7,9 @@ import Notes from "./pages/Notes";
 import NoteDetail from "./pages/NoteDetail";
 import Pathways from "./pages/Pathways";
 import PathwayDetail from "./pages/PathwayDetail";
+import Index from "./pages/Index";
+import Workflow from "./pages/Workflow";
+import About from "./pages/About";
 import "./styles/style.css";
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
         <Route path="/notes/:id" element={<NoteDetail />} />
         <Route path="/pathways" element={<Pathways />} />
         <Route path="/pathways/:id" element={<PathwayDetail />} />
+        <Route path="/index" element={<Index />} />
+        <Route path="/workflow" element={<Workflow />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );
