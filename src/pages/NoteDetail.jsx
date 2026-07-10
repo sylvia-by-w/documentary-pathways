@@ -36,6 +36,13 @@ export default function NoteDetail() {
         ) : null
       )}
 
+      {note.relatedDirector && (
+        <div style={{ marginBottom: "20px" }}>
+            <Link to={`/directors/${note.relatedDirector}`} style={{ color: "var(--amber)", fontSize: "13px" }}>
+            ← Part of Director Study: {note.director}
+            </Link>
+        </div>
+        )}
       <Link to="/notes" style={{ color: "var(--amber)", fontSize: "13px" }}>← Back to Notes</Link>
     </div>
   );

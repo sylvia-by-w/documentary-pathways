@@ -18,6 +18,9 @@ export default function Directors() {
             </div>
             <h3>{d.name} · {d.chineseName}</h3>
             <div className="why">{d.intro}</div>
+            <div style={{ marginTop: "10px", fontSize: "12px", color: "var(--muted)" }}>
+            {d.filmography.filter((f) => f.status === "watched").length} / {d.filmography.length} watched
+            </div>
           </div>
         </Link>
       ))}

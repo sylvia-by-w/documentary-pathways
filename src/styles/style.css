@@ -133,3 +133,24 @@ section{max-width:1040px; margin:0 auto; padding:90px 32px;}
   .pathway-intro{grid-template-columns:1fr;}
   .navlinks{display:none;}
 }
+
+.progress-wrap{
+  margin: 20px 0 36px;
+}
+.progress-label{
+  display:flex; justify-content:space-between;
+  font-size:12px; color:var(--muted); margin-bottom:8px;
+}
+.progress-bar{
+  height:4px; background:var(--line); border-radius:2px; overflow:hidden;
+}
+.progress-fill{
+  height:100%; background:var(--amber);
+  transition: width .3s;
+}
+.status-badge{
+  display:inline-block; font-size:10px; padding:3px 9px;
+  border-radius:20px; letter-spacing:0.04em; text-transform:uppercase;
+  border:1px solid var(--line); color:var(--muted);
+}
+.status-badge.watched{ border-color:var(--amber); color:var(--amber); }
