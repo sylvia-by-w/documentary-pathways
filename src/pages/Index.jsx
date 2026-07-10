@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { documentaries } from "../data/documentaries";
-import { directors } from "../data/directors";
-import { notes } from "../data/notes";
+import documentaries from "../data/documentaries.json";
+import directors from "../data/directors.json";
+import notes from "../data/notes.json";
 
 // 把三处数据源整理成统一的索引条目
 function buildIndex() {

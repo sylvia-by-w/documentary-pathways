@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { notes } from "../data/notes";
+import notes from "../data/notes.json";
 
 const fields = [
   { key: "beforeWatching", label: "Before Watching", zh: "观看前" },

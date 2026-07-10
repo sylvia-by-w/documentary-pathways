@@ -1,0 +1,45 @@
+[
+  {
+    "id": "xu-tong",
+    "name": "Xu Tong",
+    "chineseName": "徐童",
+    "intro": "以“游民三部曲”闻名，长期关注中国社会底层的边缘人物——算命先生、拾荒者、性工作者，用近距离、少介入的方式跟拍多年。",
+    "focus": [
+      "边缘人物",
+      "底层劳动",
+      "拍摄伦理",
+      "城乡流动"
+    ],
+    "studyStatus": "In Progress",
+    "startDate": "2026-07",
+    "whyIStarted": "我一直容易被纪录片中的边缘人物吸引。我想通过连续观看徐童的作品，理解这种吸引来自人物本身，还是来自导演观看、进入和组织这些人物生活的方式。",
+    "recurringQuestions": [
+      "徐童为什么持续被某类人物吸引？",
+      "镜头是在理解人物，还是在展示人物？",
+      "我的同情里是否也包含猎奇？"
+    ],
+    "filmography": [
+      {
+        "id": "fortune-teller",
+        "title": "Fortune Teller",
+        "chineseTitle": "算命",
+        "year": 2009,
+        "status": "to-watch"
+      },
+      {
+        "id": "wheat-harvest",
+        "title": "Wheat Harvest",
+        "chineseTitle": "麦收",
+        "year": 2008,
+        "status": "to-watch"
+      },
+      {
+        "id": "old-tang-head",
+        "title": "Old Tang Head",
+        "chineseTitle": "老唐头",
+        "year": 2011,
+        "status": "to-watch"
+      }
+    ]
+  }
+]

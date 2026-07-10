@@ -1,0 +1,125 @@
+films:
+  - id: minding-the-gap
+    title: Minding the Gap
+    chineseTitle: ""
+    year: 2018
+    country: ["USA"]
+    director: ""
+    status: watched
+    watchDate: null
+    pathway:
+      id: how-systems-shape-us
+      stage: individual
+      stageLabel: "Stage 1 — The Individual"
+      stageZh: "从个人故事进入"
+      why: "Enters the theme through friendship and skateboarding, before the systems around these boys become visible."
+    directorStudy: null
+    notes: null
+
+  - id: american-factory
+    title: American Factory
+    chineseTitle: "美国工厂"
+    year: 2019
+    country: ["USA", "China"]
+    director: ""
+    status: watched
+    watchDate: null
+    pathway:
+      id: how-systems-shape-us
+      stage: institution
+      stageLabel: "Stage 2 — The Institution"
+      stageZh: "看到制度"
+      why: "Shows how a workplace becomes a site where two systems of labor and value collide."
+    directorStudy: null
+    notes: null
+
+  - id: social-dilemma
+    title: The Social Dilemma
+    chineseTitle: ""
+    year: 2020
+    country: ["USA"]
+    director: ""
+    status: watched
+    watchDate: null
+    pathway:
+      id: how-systems-shape-us
+      stage: system
+      stageLabel: "Stage 3 — The Invisible System"
+      stageZh: "看到权力与技术结构"
+      why: "Pulls back further, to a system with no single building or boss — attention itself as infrastructure."
+    directorStudy: null
+    notes: null
+
+  - id: free-solo
+    title: Free Solo
+    chineseTitle: ""
+    year: 2018
+    country: ["USA"]
+    director: ""
+    status: watched
+    watchDate: null
+    pathway:
+      id: how-systems-shape-us
+      stage: agency
+      stageLabel: "Stage 4 — Agency, Returned"
+      stageZh: "回到人的选择"
+      why: "Closes the path by asking what a person chooses when every system's safety net is removed."
+    directorStudy: null
+    notes: null
+
+  - id: fortune-teller
+    title: Fortune Teller
+    chineseTitle: "算命"
+    year: 2009
+    country: ["China"]
+    director: "Xu Tong"
+    status: to-watch
+    watchDate: null
+    pathway: null
+    directorStudy: xu-tong
+    notes:
+      beforeWatching: "还没看，先记录选它的原因——想理解徐童如何进入一个算命先生的生活。"
+      whatINoticed: ""
+      whatStayedWithMe: ""
+      whatChangedForMe: ""
+      whatMadeMeUncomfortable: ""
+      questionsAfterWatching: ""
+      connections: ""
+
+  - id: wheat-harvest
+    title: Wheat Harvest
+    chineseTitle: "麦收"
+    year: 2008
+    country: ["China"]
+    director: "Xu Tong"
+    status: to-watch
+    watchDate: null
+    pathway: null
+    directorStudy: xu-tong
+    notes: null
+
+  - id: old-tang-head
+    title: Old Tang Head
+    chineseTitle: "老唐头"
+    year: 2011
+    country: ["China"]
+    director: "Xu Tong"
+    status: to-watch
+    watchDate: null
+    pathway: null
+    directorStudy: xu-tong
+    notes: null
+
+directors:
+  - id: xu-tong
+    name: Xu Tong
+    chineseName: 徐童
+    intro: "以“游民三部曲”闻名，长期关注中国社会底层的边缘人物——算命先生、拾荒者、性工作者，用近距离、少介入的方式跟拍多年。"
+    focus: ["边缘人物", "底层劳动", "拍摄伦理", "城乡流动"]
+    studyStatus: "In Progress"
+    startDate: "2026-07"
+    whyIStarted: "我一直容易被纪录片中的边缘人物吸引。我想通过连续观看徐童的作品，理解这种吸引来自人物本身，还是来自导演观看、进入和组织这些人物生活的方式。"
+    recurringQuestions:
+      - "徐童为什么持续被某类人物吸引？"
+      - "镜头是在理解人物，还是在展示人物？"
+      - "我的同情里是否也包含猎奇？"
