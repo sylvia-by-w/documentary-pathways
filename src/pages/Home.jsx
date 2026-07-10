@@ -4,9 +4,17 @@ import DocCard from "../components/DocCard";
 export default function Home() {
   return (
     <div className="hero" id="home">
-      <div className="eyebrow">A Curated Map, Not a Watchlist</div>
-      <h1>Understand the world <em>before</em><br />creating in it.</h1>
-      <div className="zh-line">给想理解世界的年轻创作者的纪录片观看路径</div>
+      <div className="eyebrow">A Personal Documentary Archive</div>
+      <h1>
+        Learning to see the world
+        <br />
+        through lives that are <em>often overlooked</em>.
+      </h1>
+      <div className="zh-line">通过那些常被忽略的人生，重新学习如何观看世界。</div>
+      <div className="tagline">
+        <span>A personal and evolving archive of documentary viewing, research, and reflection.</span>
+        <span>一个持续生长的个人纪录片观看、研究与思考档案。</span>
+      </div>
 
       <section id="pathway" style={{ textAlign: "left", marginTop: "60px" }}>
         <div className="section-head">
