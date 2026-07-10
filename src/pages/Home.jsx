@@ -1,5 +1,4 @@
-import { documentaries } from "../data/documentaries";
-import DocCard from "../components/DocCard";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -16,19 +15,10 @@ export default function Home() {
         <span>一个持续生长的个人纪录片观看、研究与思考档案。</span>
       </div>
 
-      <section id="pathway" style={{ textAlign: "left", marginTop: "60px" }}>
-        <div className="section-head">
-          <div className="eyebrow">Featured Pathway · 01</div>
-          <h2>How Systems Shape Us</h2>
-          <div className="zh">系统如何塑造一个人</div>
-        </div>
-
-        <div className="route">
-          {documentaries.map((doc) => (
-            <DocCard key={doc.id} doc={doc} />
-          ))}
-        </div>
-      </section>
+      <div className="hero-cta">
+        <Link className="btn btn-primary" to="/pathways">Explore Pathways</Link>
+        <Link className="btn btn-ghost" to="/directors">Director Studies</Link>
+      </div>
     </div>
   );
 }

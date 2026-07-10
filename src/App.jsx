@@ -5,6 +5,8 @@ import Directors from "./pages/Directors";
 import XuTong from "./pages/XuTong";
 import Notes from "./pages/Notes";
 import NoteDetail from "./pages/NoteDetail";
+import Pathways from "./pages/Pathways";
+import PathwayDetail from "./pages/PathwayDetail";
 import "./styles/style.css";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/directors/xu-tong" element={<XuTong />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/notes/:id" element={<NoteDetail />} />
+        <Route path="/pathways" element={<Pathways />} />
+        <Route path="/pathways/:id" element={<PathwayDetail />} />
       </Routes>
     </BrowserRouter>
   );
