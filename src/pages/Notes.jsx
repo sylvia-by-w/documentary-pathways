@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import notes from "../data/notes.json";
+import notes from "../data/generated/notes.json";
 
 export default function Notes() {
   return (

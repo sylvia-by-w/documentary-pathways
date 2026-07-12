@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import directors from "../data/directors.json";
+import directors from "../data/generated/directors.json";
 
 export default function Directors() {
   return (

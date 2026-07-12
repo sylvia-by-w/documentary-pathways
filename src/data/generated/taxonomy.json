@@ -1,0 +1,62 @@
+{
+  "themes": [
+    {
+      "id": "marginalized-lives",
+      "zh": "边缘人物",
+      "en": "Marginalized Lives"
+    },
+    {
+      "id": "labor",
+      "zh": "底层劳动",
+      "en": "Labor"
+    },
+    {
+      "id": "ethics-of-filming",
+      "zh": "拍摄伦理",
+      "en": "Ethics of Filming"
+    },
+    {
+      "id": "rural-urban-migration",
+      "zh": "城乡流动",
+      "en": "Rural-Urban Migration"
+    },
+    {
+      "id": "systems-and-institutions",
+      "zh": "制度与系统",
+      "en": "Systems and Institutions"
+    },
+    {
+      "id": "technology-and-attention",
+      "zh": "技术与注意力",
+      "en": "Technology and Attention"
+    },
+    {
+      "id": "agency",
+      "zh": "能动性与选择",
+      "en": "Individual Agency"
+    }
+  ],
+  "subjects": [],
+  "forms": [
+    {
+      "id": "observational",
+      "zh": "观察式",
+      "en": "Observational"
+    },
+    {
+      "id": "participatory",
+      "zh": "参与式",
+      "en": "Participatory"
+    },
+    {
+      "id": "long-term-filming",
+      "zh": "长期跟拍",
+      "en": "Long-term Filming"
+    },
+    {
+      "id": "interview-based",
+      "zh": "访谈为主",
+      "en": "Interview-based"
+    }
+  ]
+}
