@@ -24,21 +24,24 @@
         "title": "Fortune Teller",
         "chineseTitle": "算命",
         "year": 2009,
-        "status": "to-watch"
+        "status": "to-watch",
+        "curationLevel": "curated"
       },
       {
         "id": "wheat-harvest",
         "title": "Wheat Harvest",
         "chineseTitle": "麦收",
         "year": 2008,
-        "status": "to-watch"
+        "status": "to-watch",
+        "curationLevel": "curated"
       },
       {
         "id": "old-tang-head",
         "title": "Old Tang Head",
         "chineseTitle": "老唐头",
         "year": 2011,
-        "status": "to-watch"
+        "status": "to-watch",
+        "curationLevel": "curated"
       }
     ]
   }
