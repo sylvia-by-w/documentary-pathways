@@ -5,8 +5,12 @@ films:
     year: 2018
     country: ["USA"]
     director: ""
+    directorIds: []
     status: watched
     watchDate: null
+    curationLevel: featured   # 已观看、有推荐理由、已放入路径
+    researchStatus: reviewed
+    themes: []                # 待补：主题标签，见 taxonomy.yaml（Phase 后续）
     pathway:
       id: how-systems-shape-us
       stage: individual
@@ -22,8 +26,12 @@ films:
     year: 2019
     country: ["USA", "China"]
     director: ""
+    directorIds: []
     status: watched
     watchDate: null
+    curationLevel: featured
+    researchStatus: reviewed
+    themes: []
     pathway:
       id: how-systems-shape-us
       stage: institution
@@ -39,8 +47,12 @@ films:
     year: 2020
     country: ["USA"]
     director: ""
+    directorIds: []
     status: watched
     watchDate: null
+    curationLevel: featured
+    researchStatus: reviewed
+    themes: []
     pathway:
       id: how-systems-shape-us
       stage: system
@@ -56,8 +68,12 @@ films:
     year: 2018
     country: ["USA"]
     director: ""
+    directorIds: []
     status: watched
     watchDate: null
+    curationLevel: featured
+    researchStatus: reviewed
+    themes: []
     pathway:
       id: how-systems-shape-us
       stage: agency
@@ -73,8 +89,12 @@ films:
     year: 2009
     country: ["China"]
     director: "Xu Tong"
+    directorIds: ["xu-tong"]
     status: to-watch
     watchDate: null
+    curationLevel: curated    # 已核对基本信息、已归入导演研究，尚未写完整策展内容
+    researchStatus: reviewed
+    themes: []
     pathway: null
     directorStudy: xu-tong
     notes:
@@ -92,8 +112,12 @@ films:
     year: 2008
     country: ["China"]
     director: "Xu Tong"
+    directorIds: ["xu-tong"]
     status: to-watch
     watchDate: null
+    curationLevel: curated
+    researchStatus: reviewed
+    themes: []
     pathway: null
     directorStudy: xu-tong
     notes: null
@@ -104,11 +128,46 @@ films:
     year: 2011
     country: ["China"]
     director: "Xu Tong"
+    directorIds: ["xu-tong"]
     status: to-watch
     watchDate: null
+    curationLevel: curated
+    researchStatus: reviewed
+    themes: []
     pathway: null
     directorStudy: xu-tong
     notes: null
+
+pathways:
+  - id: how-systems-shape-us
+    title: How Systems Shape Us
+    zh: "系统如何塑造一个人"
+    coreQuestion: "What parts of a person are chosen, and what parts are shaped?"
+    status: active
+
+  - id: left-behind
+    title: "被留下的人"
+    zh: ""
+    coreQuestion: ""
+    status: soon
+
+  - id: how-to-survive
+    title: "如何活下去"
+    zh: ""
+    coreQuestion: ""
+    status: soon
+
+  - id: after-leaving-home
+    title: "离开故乡以后"
+    zh: ""
+    coreQuestion: ""
+    status: soon
+
+  - id: who-watches-whom
+    title: "谁在观看谁"
+    zh: ""
+    coreQuestion: ""
+    status: soon
 
 directors:
   - id: xu-tong

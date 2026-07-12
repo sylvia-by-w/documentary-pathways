@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# generated during local build/test, not needed here
+dist/
+node_modules/
