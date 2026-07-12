@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pathways from "../data/pathways.json";
+import pathways from "../data/generated/pathways.json";
 
 export default function Pathways() {
   return (

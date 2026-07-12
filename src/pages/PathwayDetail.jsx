@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import pathways from "../data/pathways.json";
+import pathways from "../data/generated/pathways.json";
 import DocCard from "../components/DocCard";
 
 export default function PathwayDetail() {

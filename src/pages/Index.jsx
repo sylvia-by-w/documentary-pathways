@@ -1,44 +1,32 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import documentaries from "../data/documentaries.json";
-import directors from "../data/directors.json";
-import notes from "../data/notes.json";
+import films from "../data/generated/films.json";
+import pathways from "../data/generated/pathways.json";
+import directors from "../data/generated/directors.json";
+import notes from "../data/generated/notes.json";
 
-// 把三处数据源整理成统一的索引条目
+// 把 films / pathways / directors / notes 四份生成数据整理成统一的索引条目
 function buildIndex() {
-  const items = [];
+  const directorNameById = Object.fromEntries(directors.map((d) => [d.id, d.name]));
 
-  documentaries.forEach((d) => {
-    items.push({
-      id: d.id,
-      title: d.title,
-      chineseTitle: d.chineseTitle || "",
-      year: d.year,
-      director: "",
-      status: "watched",
-      inPathway: "How Systems Shape Us",
-      inDirectorStudy: "",
-      hasNotes: notes.some((n) => n.filmId === d.id)
+  const pathwayTitleByFilmId = {};
+  pathways.forEach((p) => {
+    p.films.forEach((f) => {
+      pathwayTitleByFilmId[f.id] = p.title;
     });
   });
 
-  directors.forEach((dir) => {
-    dir.filmography.forEach((f) => {
-      items.push({
-        id: f.id,
-        title: f.title,
-        chineseTitle: f.chineseTitle,
-        year: f.year,
-        director: dir.name,
-        status: f.status,
-        inPathway: "",
-        inDirectorStudy: dir.name,
-        hasNotes: notes.some((n) => n.filmId === f.id)
-      });
-    });
-  });
-
-  return items;
+  return films.map((f) => ({
+    id: f.id,
+    title: f.title,
+    chineseTitle: f.chineseTitle || "",
+    year: f.year,
+    director: (f.directorIds || []).map((id) => directorNameById[id]).filter(Boolean).join(", ") || f.director || "",
+    status: f.status,
+    curationLevel: f.curationLevel,
+    inPathway: pathwayTitleByFilmId[f.id] || "",
+    hasNotes: notes.some((n) => n.filmId === f.id)
+  }));
 }
 
 export default function Index() {
@@ -85,7 +73,6 @@ export default function Index() {
           <h3>{item.title}</h3>
           <div className="why">
             {item.inPathway && <>Pathway: {item.inPathway} </>}
-            {item.inDirectorStudy && <>· Director Study: {item.inDirectorStudy} </>}
             {item.hasNotes && (
               <>
                 ·{" "}

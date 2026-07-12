@@ -8,17 +8,9 @@ films:
     directorIds: []
     status: watched
     watchDate: null
-    curationLevel: featured   # 已观看、有推荐理由、已放入路径
+    curationLevel: featured
     researchStatus: reviewed
-    themes: []                # 待补：主题标签，见 taxonomy.yaml（Phase 后续）
-    pathway:
-      id: how-systems-shape-us
-      stage: individual
-      stageLabel: "Stage 1 — The Individual"
-      stageZh: "从个人故事进入"
-      why: "Enters the theme through friendship and skateboarding, before the systems around these boys become visible."
-    directorStudy: null
-    notes: null
+    themes: []
 
   - id: american-factory
     title: American Factory
@@ -32,14 +24,6 @@ films:
     curationLevel: featured
     researchStatus: reviewed
     themes: []
-    pathway:
-      id: how-systems-shape-us
-      stage: institution
-      stageLabel: "Stage 2 — The Institution"
-      stageZh: "看到制度"
-      why: "Shows how a workplace becomes a site where two systems of labor and value collide."
-    directorStudy: null
-    notes: null
 
   - id: social-dilemma
     title: The Social Dilemma
@@ -53,14 +37,6 @@ films:
     curationLevel: featured
     researchStatus: reviewed
     themes: []
-    pathway:
-      id: how-systems-shape-us
-      stage: system
-      stageLabel: "Stage 3 — The Invisible System"
-      stageZh: "看到权力与技术结构"
-      why: "Pulls back further, to a system with no single building or boss — attention itself as infrastructure."
-    directorStudy: null
-    notes: null
 
   - id: free-solo
     title: Free Solo
@@ -74,14 +50,6 @@ films:
     curationLevel: featured
     researchStatus: reviewed
     themes: []
-    pathway:
-      id: how-systems-shape-us
-      stage: agency
-      stageLabel: "Stage 4 — Agency, Returned"
-      stageZh: "回到人的选择"
-      why: "Closes the path by asking what a person chooses when every system's safety net is removed."
-    directorStudy: null
-    notes: null
 
   - id: fortune-teller
     title: Fortune Teller
@@ -92,19 +60,9 @@ films:
     directorIds: ["xu-tong"]
     status: to-watch
     watchDate: null
-    curationLevel: curated    # 已核对基本信息、已归入导演研究，尚未写完整策展内容
+    curationLevel: curated
     researchStatus: reviewed
     themes: []
-    pathway: null
-    directorStudy: xu-tong
-    notes:
-      beforeWatching: "还没看，先记录选它的原因——想理解徐童如何进入一个算命先生的生活。"
-      whatINoticed: ""
-      whatStayedWithMe: ""
-      whatChangedForMe: ""
-      whatMadeMeUncomfortable: ""
-      questionsAfterWatching: ""
-      connections: ""
 
   - id: wheat-harvest
     title: Wheat Harvest
@@ -118,9 +76,6 @@ films:
     curationLevel: curated
     researchStatus: reviewed
     themes: []
-    pathway: null
-    directorStudy: xu-tong
-    notes: null
 
   - id: old-tang-head
     title: Old Tang Head
@@ -134,51 +89,3 @@ films:
     curationLevel: curated
     researchStatus: reviewed
     themes: []
-    pathway: null
-    directorStudy: xu-tong
-    notes: null
-
-pathways:
-  - id: how-systems-shape-us
-    title: How Systems Shape Us
-    zh: "系统如何塑造一个人"
-    coreQuestion: "What parts of a person are chosen, and what parts are shaped?"
-    status: active
-
-  - id: left-behind
-    title: "被留下的人"
-    zh: ""
-    coreQuestion: ""
-    status: soon
-
-  - id: how-to-survive
-    title: "如何活下去"
-    zh: ""
-    coreQuestion: ""
-    status: soon
-
-  - id: after-leaving-home
-    title: "离开故乡以后"
-    zh: ""
-    coreQuestion: ""
-    status: soon
-
-  - id: who-watches-whom
-    title: "谁在观看谁"
-    zh: ""
-    coreQuestion: ""
-    status: soon
-
-directors:
-  - id: xu-tong
-    name: Xu Tong
-    chineseName: 徐童
-    intro: "以“游民三部曲”闻名，长期关注中国社会底层的边缘人物——算命先生、拾荒者、性工作者，用近距离、少介入的方式跟拍多年。"
-    focus: ["边缘人物", "底层劳动", "拍摄伦理", "城乡流动"]
-    studyStatus: "In Progress"
-    startDate: "2026-07"
-    whyIStarted: "我一直容易被纪录片中的边缘人物吸引。我想通过连续观看徐童的作品，理解这种吸引来自人物本身，还是来自导演观看、进入和组织这些人物生活的方式。"
-    recurringQuestions:
-      - "徐童为什么持续被某类人物吸引？"
-      - "镜头是在理解人物，还是在展示人物？"
-      - "我的同情里是否也包含猎奇？"

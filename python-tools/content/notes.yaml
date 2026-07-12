@@ -1,0 +1,11 @@
+# filmId 必须能在 films.yaml 里找到
+notes:
+  - id: fortune-teller-note
+    filmId: fortune-teller
+    beforeWatching: "还没看，先记录选它的原因——想理解徐童如何进入一个算命先生的生活。"
+    whatINoticed: ""
+    whatStayedWithMe: ""
+    whatChangedForMe: ""
+    whatMadeMeUncomfortable: ""
+    questionsAfterWatching: ""
+    connections: ""

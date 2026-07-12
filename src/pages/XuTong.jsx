@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import directors from "../data/directors.json";
-import notes from "../data/notes.json";
+import directors from "../data/generated/directors.json";
+import notes from "../data/generated/notes.json";
 
 export default function XuTong() {
   const d = directors.find((x) => x.id === "xu-tong");

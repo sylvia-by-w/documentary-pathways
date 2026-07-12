@@ -1,0 +1,42 @@
+# 草稿版标签表，仅先把当前数据里已经出现过的概念收进来方便校验跑通。
+# themes/subjects/forms 的具体取舍需要你来定，这里先占位，之后随时增删。
+# films.yaml 里的 themes 字段只能引用这里出现过的 id，否则 validate_data.py 会报错。
+
+themes:
+  - id: marginalized-lives
+    zh: 边缘人物
+    en: Marginalized Lives
+  - id: labor
+    zh: 底层劳动
+    en: Labor
+  - id: ethics-of-filming
+    zh: 拍摄伦理
+    en: Ethics of Filming
+  - id: rural-urban-migration
+    zh: 城乡流动
+    en: Rural-Urban Migration
+  - id: systems-and-institutions
+    zh: 制度与系统
+    en: Systems and Institutions
+  - id: technology-and-attention
+    zh: 技术与注意力
+    en: Technology and Attention
+  - id: agency
+    zh: 能动性与选择
+    en: Individual Agency
+
+subjects: []
+
+forms:
+  - id: observational
+    zh: 观察式
+    en: Observational
+  - id: participatory
+    zh: 参与式
+    en: Participatory
+  - id: long-term-filming
+    zh: 长期跟拍
+    en: Long-term Filming
+  - id: interview-based
+    zh: 访谈为主
+    en: Interview-based
